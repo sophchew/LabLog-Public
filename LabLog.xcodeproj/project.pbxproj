@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C7E00502C1EB9AA00CFCF1C /* extrahelptracker-47d4dc14a3e6.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C7E004F2C1EB9AA00CFCF1C /* extrahelptracker-47d4dc14a3e6.json */; };
+		7C7E00532C1EBEC900CFCF1C /* GTMAppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E00522C1EBEC900CFCF1C /* GTMAppAuth */; };
+		7C7E00562C1EBF0F00CFCF1C /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E00552C1EBF0F00CFCF1C /* AppAuth */; };
+		7C7E00582C1EC7B100CFCF1C /* GoogleAPIClientForREST_ServiceUsage in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E00572C1EC7B100CFCF1C /* GoogleAPIClientForREST_ServiceUsage */; };
+		7C7E005B2C1EC82100CFCF1C /* GTMSessionFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E005A2C1EC82100CFCF1C /* GTMSessionFetcher */; };
+		7C7E005D2C1EC82100CFCF1C /* GTMSessionFetcherCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E005C2C1EC82100CFCF1C /* GTMSessionFetcherCore */; };
+		7C7E005F2C1EC82100CFCF1C /* GTMSessionFetcherFull in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E005E2C1EC82100CFCF1C /* GTMSessionFetcherFull */; };
+		7C7E00612C1EC82100CFCF1C /* GTMSessionFetcherLogView in Frameworks */ = {isa = PBXBuildFile; productRef = 7C7E00602C1EC82100CFCF1C /* GTMSessionFetcherLogView */; };
+		7C7E00632C1EF6E000CFCF1C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7E00622C1EF6E000CFCF1C /* OnboardingView.swift */; };
+		7CA0321A2C2A8419001F422C /* LabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA032192C2A8419001F422C /* LabsView.swift */; };
+		7CA0321C2C2A8426001F422C /* JWTAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA0321B2C2A8426001F422C /* JWTAuthorizer.swift */; };
+		7CA032212C2C4D4D001F422C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA032202C2C4D4D001F422C /* SplashView.swift */; };
+		7CA032362C310179001F422C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032222C310179001F422C /* OFL.txt */; };
+		7CA032372C310179001F422C /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032232C310179001F422C /* Poppins-Black.ttf */; };
+		7CA032382C310179001F422C /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032242C310179001F422C /* Poppins-BlackItalic.ttf */; };
+		7CA032392C310179001F422C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032252C310179001F422C /* Poppins-Bold.ttf */; };
+		7CA0323A2C310179001F422C /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032262C310179001F422C /* Poppins-BoldItalic.ttf */; };
+		7CA0323B2C310179001F422C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032272C310179001F422C /* Poppins-ExtraBold.ttf */; };
+		7CA0323C2C310179001F422C /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032282C310179001F422C /* Poppins-ExtraBoldItalic.ttf */; };
+		7CA0323D2C310179001F422C /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032292C310179001F422C /* Poppins-ExtraLight.ttf */; };
+		7CA0323E2C310179001F422C /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322A2C310179001F422C /* Poppins-ExtraLightItalic.ttf */; };
+		7CA0323F2C310179001F422C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322B2C310179001F422C /* Poppins-Italic.ttf */; };
+		7CA032402C310179001F422C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322C2C310179001F422C /* Poppins-Light.ttf */; };
+		7CA032412C310179001F422C /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322D2C310179001F422C /* Poppins-LightItalic.ttf */; };
+		7CA032422C310179001F422C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322E2C310179001F422C /* Poppins-Medium.ttf */; };
+		7CA032432C310179001F422C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA0322F2C310179001F422C /* Poppins-MediumItalic.ttf */; };
+		7CA032442C310179001F422C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032302C310179001F422C /* Poppins-Regular.ttf */; };
+		7CA032452C310179001F422C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032312C310179001F422C /* Poppins-SemiBold.ttf */; };
+		7CA032462C310179001F422C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032322C310179001F422C /* Poppins-SemiBoldItalic.ttf */; };
+		7CA032472C310179001F422C /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032332C310179001F422C /* Poppins-Thin.ttf */; };
+		7CA032482C310179001F422C /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CA032342C310179001F422C /* Poppins-ThinItalic.ttf */; };
+		7CA0324C2C3105D9001F422C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA0324B2C3105D9001F422C /* CustomButton.swift */; };
+		7CA0324E2C32EC9E001F422C /* CustomNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA0324D2C32EC9E001F422C /* CustomNavTitle.swift */; };
+		7CA0324F2C455937001F422C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813803F2BFE96B800D041A0 /* Assets.xcassets */; };
+		7CA032502C455937001F422C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813803F2BFE96B800D041A0 /* Assets.xcassets */; };
+		7CA032512C455A17001F422C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D813803F2BFE96B800D041A0 /* Assets.xcassets */; };
+		7CD1C5342C23CAB3008AFA7B /* ServiceAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD1C5332C23CAB3008AFA7B /* ServiceAccount.swift */; };
+		7CD1C5372C23CAF4008AFA7B /* JWTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7CD1C5362C23CAF4008AFA7B /* JWTKit */; };
+		D801AB352CB5943200D6A935 /* GmailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801AB342CB5943200D6A935 /* GmailAPI.swift */; };
+		D813803C2BFE96B700D041A0 /* LabLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813803B2BFE96B700D041A0 /* LabLogApp.swift */; };
+		D813803E2BFE96B700D041A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813803D2BFE96B700D041A0 /* ContentView.swift */; };
+		D81380432BFE96B800D041A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81380422BFE96B800D041A0 /* Preview Assets.xcassets */; };
+		D813804D2BFE96B800D041A0 /* LabLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813804C2BFE96B800D041A0 /* LabLogTests.swift */; };
+		D81380572BFE96B800D041A0 /* LabLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81380562BFE96B800D041A0 /* LabLogUITests.swift */; };
+		D81380592BFE96B800D041A0 /* LabLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81380582BFE96B800D041A0 /* LabLogUITestsLaunchTests.swift */; };
+		D813806F2BFEDD3800D041A0 /* GeneralLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813806E2BFEDD3700D041A0 /* GeneralLog.swift */; };
+		D81380712BFEE2FE00D041A0 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81380702BFEE2FE00D041A0 /* CheckInView.swift */; };
+		D81B62172C04EDB300B7FC79 /* LabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B62162C04EDB300B7FC79 /* LabData.swift */; };
+		D82AFB0F2C0E471C00D49C49 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82AFB0E2C0E471C00D49C49 /* Account.swift */; };
+		D8615F9C2C78DCCB00D879EE /* AddLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8615F9B2C78DCCB00D879EE /* AddLabView.swift */; };
+		D8615F9E2C80DDCC00D879EE /* CustomNavLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8615F9D2C80DDCC00D879EE /* CustomNavLinkLabel.swift */; };
+		D8615FA02C815DC800D879EE /* GoogleAPIClientForREST_Drive in Frameworks */ = {isa = PBXBuildFile; productRef = D8615F9F2C815DC800D879EE /* GoogleAPIClientForREST_Drive */; };
+		D8615FA22C815DC800D879EE /* GoogleAPIClientForREST_DriveActivity in Frameworks */ = {isa = PBXBuildFile; productRef = D8615FA12C815DC800D879EE /* GoogleAPIClientForREST_DriveActivity */; };
+		D8C10E632BFFC88400CFECE6 /* SheetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C10E622BFFC88400CFECE6 /* SheetsAPI.swift */; };
+		D8C10E682BFFD75000CFECE6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E672BFFD75000CFECE6 /* GoogleSignIn */; };
+		D8C10E6A2BFFD75000CFECE6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E692BFFD75000CFECE6 /* GoogleSignInSwift */; };
+		D8C10E6C2C00419A00CFECE6 /* GoogleAPIClientForRESTCore in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E6B2C00419A00CFECE6 /* GoogleAPIClientForRESTCore */; };
+		D8C10E6E2C00419A00CFECE6 /* GoogleAPIClientForREST_ACMEDNS in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E6D2C00419A00CFECE6 /* GoogleAPIClientForREST_ACMEDNS */; };
+		D8C10E702C00419A00CFECE6 /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E6F2C00419A00CFECE6 /* GoogleAPIClientForREST_AIPlatformNotebooks */; };
+		D8C10E722C00419A00CFECE6 /* GoogleAPIClientForREST_APIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E712C00419A00CFECE6 /* GoogleAPIClientForREST_APIGateway */; };
+		D8C10E742C00419A00CFECE6 /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E732C00419A00CFECE6 /* GoogleAPIClientForREST_AbusiveExperienceReport */; };
+		D8C10E762C0043F500CFECE6 /* GoogleAPIClientForREST_Gmail in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E752C0043F500CFECE6 /* GoogleAPIClientForREST_Gmail */; };
+		D8C10E782C0043F500CFECE6 /* GoogleAPIClientForREST_Oauth2 in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E772C0043F500CFECE6 /* GoogleAPIClientForREST_Oauth2 */; };
+		D8C10E7A2C0043F500CFECE6 /* GoogleAPIClientForREST_Sheets in Frameworks */ = {isa = PBXBuildFile; productRef = D8C10E792C0043F500CFECE6 /* GoogleAPIClientForREST_Sheets */; };
+		D8C10E7D2C03CD3C00CFECE6 /* ActiveUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C10E7C2C03CD3C00CFECE6 /* ActiveUser.swift */; };
+		D8C9001D2C8FD1B200897F92 /* GoogleAdminAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C9001C2C8FD1B200897F92 /* GoogleAdminAPI.swift */; };
+		D8C9001F2C8FD42800897F92 /* GoogleAPIClientForREST_Directory in Frameworks */ = {isa = PBXBuildFile; productRef = D8C9001E2C8FD42800897F92 /* GoogleAPIClientForREST_Directory */; };
+		D8C900212C91EC2500897F92 /* SearchedDomainUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C900202C91EC2500897F92 /* SearchedDomainUser.swift */; };
+		D8CD28B42CC696DE00F5DC03 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CD28B32CC696DE00F5DC03 /* FeedbackView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81380492BFE96B800D041A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81380302BFE96B700D041A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81380372BFE96B700D041A0;
+			remoteInfo = LabLog;
+		};
+		D81380532BFE96B800D041A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81380302BFE96B700D041A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81380372BFE96B700D041A0;
+			remoteInfo = LabLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C7E004F2C1EB9AA00CFCF1C /* extrahelptracker-47d4dc14a3e6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "extrahelptracker-47d4dc14a3e6.json"; sourceTree = "<group>"; };
+		7C7E00622C1EF6E000CFCF1C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7CA032192C2A8419001F422C /* LabsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabsView.swift; sourceTree = "<group>"; };
+		7CA0321B2C2A8426001F422C /* JWTAuthorizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTAuthorizer.swift; sourceTree = "<group>"; };
+		7CA032202C2C4D4D001F422C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		7CA032222C310179001F422C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		7CA032232C310179001F422C /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7CA032242C310179001F422C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7CA032252C310179001F422C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7CA032262C310179001F422C /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7CA032272C310179001F422C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7CA032282C310179001F422C /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7CA032292C310179001F422C /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7CA0322A2C310179001F422C /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		7CA0322B2C310179001F422C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		7CA0322C2C310179001F422C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		7CA0322D2C310179001F422C /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		7CA0322E2C310179001F422C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		7CA0322F2C310179001F422C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7CA032302C310179001F422C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		7CA032312C310179001F422C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		7CA032322C310179001F422C /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7CA032332C310179001F422C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		7CA032342C310179001F422C /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7CA0324B2C3105D9001F422C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7CA0324D2C32EC9E001F422C /* CustomNavTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavTitle.swift; sourceTree = "<group>"; };
+		7CD1C5332C23CAB3008AFA7B /* ServiceAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAccount.swift; sourceTree = "<group>"; };
+		D801AB342CB5943200D6A935 /* GmailAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailAPI.swift; sourceTree = "<group>"; };
+		D81380382BFE96B700D041A0 /* LabLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D813803B2BFE96B700D041A0 /* LabLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabLogApp.swift; sourceTree = "<group>"; };
+		D813803D2BFE96B700D041A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D813803F2BFE96B800D041A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81380422BFE96B800D041A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D81380482BFE96B800D041A0 /* LabLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D813804C2BFE96B800D041A0 /* LabLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabLogTests.swift; sourceTree = "<group>"; };
+		D81380522BFE96B800D041A0 /* LabLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81380562BFE96B800D041A0 /* LabLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabLogUITests.swift; sourceTree = "<group>"; };
+		D81380582BFE96B800D041A0 /* LabLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D81380652BFE983A00D041A0 /* LabLog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LabLog.entitlements; sourceTree = "<group>"; };
+		D813806E2BFEDD3700D041A0 /* GeneralLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLog.swift; sourceTree = "<group>"; };
+		D81380702BFEE2FE00D041A0 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		D81B62162C04EDB300B7FC79 /* LabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabData.swift; sourceTree = "<group>"; };
+		D82AFB0E2C0E471C00D49C49 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D8615F9B2C78DCCB00D879EE /* AddLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLabView.swift; sourceTree = "<group>"; };
+		D8615F9D2C80DDCC00D879EE /* CustomNavLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavLinkLabel.swift; sourceTree = "<group>"; };
+		D8C10E622BFFC88400CFECE6 /* SheetsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsAPI.swift; sourceTree = "<group>"; };
+		D8C10E662BFFD27000CFECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D8C10E7C2C03CD3C00CFECE6 /* ActiveUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveUser.swift; sourceTree = "<group>"; };
+		D8C9001C2C8FD1B200897F92 /* GoogleAdminAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdminAPI.swift; sourceTree = "<group>"; };
+		D8C900202C91EC2500897F92 /* SearchedDomainUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedDomainUser.swift; sourceTree = "<group>"; };
+		D8CD28B32CC696DE00F5DC03 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81380352BFE96B700D041A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C10E762C0043F500CFECE6 /* GoogleAPIClientForREST_Gmail in Frameworks */,
+				7C7E00582C1EC7B100CFCF1C /* GoogleAPIClientForREST_ServiceUsage in Frameworks */,
+				D8C10E742C00419A00CFECE6 /* GoogleAPIClientForREST_AbusiveExperienceReport in Frameworks */,
+				D8C10E782C0043F500CFECE6 /* GoogleAPIClientForREST_Oauth2 in Frameworks */,
+				D8C10E682BFFD75000CFECE6 /* GoogleSignIn in Frameworks */,
+				D8615FA02C815DC800D879EE /* GoogleAPIClientForREST_Drive in Frameworks */,
+				7C7E005F2C1EC82100CFCF1C /* GTMSessionFetcherFull in Frameworks */,
+				7C7E00532C1EBEC900CFCF1C /* GTMAppAuth in Frameworks */,
+				D8C10E722C00419A00CFECE6 /* GoogleAPIClientForREST_APIGateway in Frameworks */,
+				D8615FA22C815DC800D879EE /* GoogleAPIClientForREST_DriveActivity in Frameworks */,
+				7C7E00562C1EBF0F00CFCF1C /* AppAuth in Frameworks */,
+				D8C9001F2C8FD42800897F92 /* GoogleAPIClientForREST_Directory in Frameworks */,
+				D8C10E6C2C00419A00CFECE6 /* GoogleAPIClientForRESTCore in Frameworks */,
+				D8C10E702C00419A00CFECE6 /* GoogleAPIClientForREST_AIPlatformNotebooks in Frameworks */,
+				D8C10E6A2BFFD75000CFECE6 /* GoogleSignInSwift in Frameworks */,
+				D8C10E6E2C00419A00CFECE6 /* GoogleAPIClientForREST_ACMEDNS in Frameworks */,
+				7C7E00612C1EC82100CFCF1C /* GTMSessionFetcherLogView in Frameworks */,
+				7C7E005D2C1EC82100CFCF1C /* GTMSessionFetcherCore in Frameworks */,
+				7CD1C5372C23CAF4008AFA7B /* JWTKit in Frameworks */,
+				7C7E005B2C1EC82100CFCF1C /* GTMSessionFetcher in Frameworks */,
+				D8C10E7A2C0043F500CFECE6 /* GoogleAPIClientForREST_Sheets in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81380452BFE96B800D041A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D813804F2BFE96B800D041A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CA032352C310179001F422C /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				7CA032222C310179001F422C /* OFL.txt */,
+				7CA032232C310179001F422C /* Poppins-Black.ttf */,
+				7CA032242C310179001F422C /* Poppins-BlackItalic.ttf */,
+				7CA032252C310179001F422C /* Poppins-Bold.ttf */,
+				7CA032262C310179001F422C /* Poppins-BoldItalic.ttf */,
+				7CA032272C310179001F422C /* Poppins-ExtraBold.ttf */,
+				7CA032282C310179001F422C /* Poppins-ExtraBoldItalic.ttf */,
+				7CA032292C310179001F422C /* Poppins-ExtraLight.ttf */,
+				7CA0322A2C310179001F422C /* Poppins-ExtraLightItalic.ttf */,
+				7CA0322B2C310179001F422C /* Poppins-Italic.ttf */,
+				7CA0322C2C310179001F422C /* Poppins-Light.ttf */,
+				7CA0322D2C310179001F422C /* Poppins-LightItalic.ttf */,
+				7CA0322E2C310179001F422C /* Poppins-Medium.ttf */,
+				7CA0322F2C310179001F422C /* Poppins-MediumItalic.ttf */,
+				7CA032302C310179001F422C /* Poppins-Regular.ttf */,
+				7CA032312C310179001F422C /* Poppins-SemiBold.ttf */,
+				7CA032322C310179001F422C /* Poppins-SemiBoldItalic.ttf */,
+				7CA032332C310179001F422C /* Poppins-Thin.ttf */,
+				7CA032342C310179001F422C /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		D813802F2BFE96B700D041A0 = {
+			isa = PBXGroup;
+			children = (
+				D813803A2BFE96B700D041A0 /* LabLog */,
+				D813804B2BFE96B800D041A0 /* LabLogTests */,
+				D81380552BFE96B800D041A0 /* LabLogUITests */,
+				7C7E004F2C1EB9AA00CFCF1C /* extrahelptracker-47d4dc14a3e6.json */,
+				7CA032352C310179001F422C /* Poppins */,
+				D81380392BFE96B700D041A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81380392BFE96B700D041A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81380382BFE96B700D041A0 /* LabLog.app */,
+				D81380482BFE96B800D041A0 /* LabLogTests.xctest */,
+				D81380522BFE96B800D041A0 /* LabLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D813803A2BFE96B700D041A0 /* LabLog */ = {
+			isa = PBXGroup;
+			children = (
+				D8C10E7B2C03CD2300CFECE6 /* Models */,
+				D8C10E662BFFD27000CFECE6 /* Info.plist */,
+				D8C10E612BFFC85800CFECE6 /* APIs */,
+				D81380692BFED1BC00D041A0 /* Views */,
+				D81380652BFE983A00D041A0 /* LabLog.entitlements */,
+				D813803B2BFE96B700D041A0 /* LabLogApp.swift */,
+				D813803D2BFE96B700D041A0 /* ContentView.swift */,
+				D813803F2BFE96B800D041A0 /* Assets.xcassets */,
+				D81380412BFE96B800D041A0 /* Preview Content */,
+				7C7E00622C1EF6E000CFCF1C /* OnboardingView.swift */,
+			);
+			path = LabLog;
+			sourceTree = "<group>";
+		};
+		D81380412BFE96B800D041A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D81380422BFE96B800D041A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D813804B2BFE96B800D041A0 /* LabLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				D813804C2BFE96B800D041A0 /* LabLogTests.swift */,
+			);
+			path = LabLogTests;
+			sourceTree = "<group>";
+		};
+		D81380552BFE96B800D041A0 /* LabLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D81380562BFE96B800D041A0 /* LabLogUITests.swift */,
+				D81380582BFE96B800D041A0 /* LabLogUITestsLaunchTests.swift */,
+			);
+			path = LabLogUITests;
+			sourceTree = "<group>";
+		};
+		D81380692BFED1BC00D041A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D813806E2BFEDD3700D041A0 /* GeneralLog.swift */,
+				D81380702BFEE2FE00D041A0 /* CheckInView.swift */,
+				7CA032192C2A8419001F422C /* LabsView.swift */,
+				7CA032202C2C4D4D001F422C /* SplashView.swift */,
+				7CA0324B2C3105D9001F422C /* CustomButton.swift */,
+				7CA0324D2C32EC9E001F422C /* CustomNavTitle.swift */,
+				D8615F9B2C78DCCB00D879EE /* AddLabView.swift */,
+				D8615F9D2C80DDCC00D879EE /* CustomNavLinkLabel.swift */,
+				D8CD28B32CC696DE00F5DC03 /* FeedbackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8C10E612BFFC85800CFECE6 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				7CD1C5332C23CAB3008AFA7B /* ServiceAccount.swift */,
+				D8C10E622BFFC88400CFECE6 /* SheetsAPI.swift */,
+				7CA0321B2C2A8426001F422C /* JWTAuthorizer.swift */,
+				D8C9001C2C8FD1B200897F92 /* GoogleAdminAPI.swift */,
+				D801AB342CB5943200D6A935 /* GmailAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		D8C10E7B2C03CD2300CFECE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8C10E7C2C03CD3C00CFECE6 /* ActiveUser.swift */,
+				D81B62162C04EDB300B7FC79 /* LabData.swift */,
+				D82AFB0E2C0E471C00D49C49 /* Account.swift */,
+				D8C900202C91EC2500897F92 /* SearchedDomainUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81380372BFE96B700D041A0 /* LabLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D813805C2BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLog" */;
+			buildPhases = (
+				D81380342BFE96B700D041A0 /* Sources */,
+				D81380352BFE96B700D041A0 /* Frameworks */,
+				D81380362BFE96B700D041A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabLog;
+			packageProductDependencies = (
+				D8C10E672BFFD75000CFECE6 /* GoogleSignIn */,
+				D8C10E692BFFD75000CFECE6 /* GoogleSignInSwift */,
+				D8C10E6B2C00419A00CFECE6 /* GoogleAPIClientForRESTCore */,
+				D8C10E6D2C00419A00CFECE6 /* GoogleAPIClientForREST_ACMEDNS */,
+				D8C10E6F2C00419A00CFECE6 /* GoogleAPIClientForREST_AIPlatformNotebooks */,
+				D8C10E712C00419A00CFECE6 /* GoogleAPIClientForREST_APIGateway */,
+				D8C10E732C00419A00CFECE6 /* GoogleAPIClientForREST_AbusiveExperienceReport */,
+				D8C10E752C0043F500CFECE6 /* GoogleAPIClientForREST_Gmail */,
+				D8C10E772C0043F500CFECE6 /* GoogleAPIClientForREST_Oauth2 */,
+				D8C10E792C0043F500CFECE6 /* GoogleAPIClientForREST_Sheets */,
+				7C7E00522C1EBEC900CFCF1C /* GTMAppAuth */,
+				7C7E00552C1EBF0F00CFCF1C /* AppAuth */,
+				7C7E00572C1EC7B100CFCF1C /* GoogleAPIClientForREST_ServiceUsage */,
+				7C7E005A2C1EC82100CFCF1C /* GTMSessionFetcher */,
+				7C7E005C2C1EC82100CFCF1C /* GTMSessionFetcherCore */,
+				7C7E005E2C1EC82100CFCF1C /* GTMSessionFetcherFull */,
+				7C7E00602C1EC82100CFCF1C /* GTMSessionFetcherLogView */,
+				7CD1C5362C23CAF4008AFA7B /* JWTKit */,
+				D8615F9F2C815DC800D879EE /* GoogleAPIClientForREST_Drive */,
+				D8615FA12C815DC800D879EE /* GoogleAPIClientForREST_DriveActivity */,
+				D8C9001E2C8FD42800897F92 /* GoogleAPIClientForREST_Directory */,
+			);
+			productName = LabLog;
+			productReference = D81380382BFE96B700D041A0 /* LabLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81380472BFE96B800D041A0 /* LabLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D813805F2BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLogTests" */;
+			buildPhases = (
+				D81380442BFE96B800D041A0 /* Sources */,
+				D81380452BFE96B800D041A0 /* Frameworks */,
+				D81380462BFE96B800D041A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D813804A2BFE96B800D041A0 /* PBXTargetDependency */,
+			);
+			name = LabLogTests;
+			productName = LabLogTests;
+			productReference = D81380482BFE96B800D041A0 /* LabLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81380512BFE96B800D041A0 /* LabLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81380622BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLogUITests" */;
+			buildPhases = (
+				D813804E2BFE96B800D041A0 /* Sources */,
+				D813804F2BFE96B800D041A0 /* Frameworks */,
+				D81380502BFE96B800D041A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81380542BFE96B800D041A0 /* PBXTargetDependency */,
+			);
+			name = LabLogUITests;
+			productName = LabLogUITests;
+			productReference = D81380522BFE96B800D041A0 /* LabLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81380302BFE96B700D041A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D81380372BFE96B700D041A0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D81380472BFE96B800D041A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D81380372BFE96B700D041A0;
+					};
+					D81380512BFE96B800D041A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D81380372BFE96B700D041A0;
+					};
+				};
+			};
+			buildConfigurationList = D81380332BFE96B700D041A0 /* Build configuration list for PBXProject "LabLog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D813802F2BFE96B700D041A0;
+			packageReferences = (
+				D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */,
+				D8C10E652BFFD1E600CFECE6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				7C7E00512C1EBEC900CFCF1C /* XCRemoteSwiftPackageReference "GTMAppAuth" */,
+				7C7E00542C1EBF0F00CFCF1C /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+				7CD1C5352C23CAF3008AFA7B /* XCRemoteSwiftPackageReference "jwt-kit" */,
+			);
+			productRefGroup = D81380392BFE96B700D041A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81380372BFE96B700D041A0 /* LabLog */,
+				D81380472BFE96B800D041A0 /* LabLogTests */,
+				D81380512BFE96B800D041A0 /* LabLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81380362BFE96B700D041A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA032362C310179001F422C /* OFL.txt in Resources */,
+				7CA032472C310179001F422C /* Poppins-Thin.ttf in Resources */,
+				7CA032512C455A17001F422C /* Assets.xcassets in Resources */,
+				7CA032372C310179001F422C /* Poppins-Black.ttf in Resources */,
+				7CA032392C310179001F422C /* Poppins-Bold.ttf in Resources */,
+				7CA0323A2C310179001F422C /* Poppins-BoldItalic.ttf in Resources */,
+				7CA032402C310179001F422C /* Poppins-Light.ttf in Resources */,
+				7CA032482C310179001F422C /* Poppins-ThinItalic.ttf in Resources */,
+				7CA032462C310179001F422C /* Poppins-SemiBoldItalic.ttf in Resources */,
+				7CA0323D2C310179001F422C /* Poppins-ExtraLight.ttf in Resources */,
+				7CA032422C310179001F422C /* Poppins-Medium.ttf in Resources */,
+				7C7E00502C1EB9AA00CFCF1C /* extrahelptracker-47d4dc14a3e6.json in Resources */,
+				7CA032442C310179001F422C /* Poppins-Regular.ttf in Resources */,
+				7CA032432C310179001F422C /* Poppins-MediumItalic.ttf in Resources */,
+				7CA032452C310179001F422C /* Poppins-SemiBold.ttf in Resources */,
+				7CA0323B2C310179001F422C /* Poppins-ExtraBold.ttf in Resources */,
+				7CA0323F2C310179001F422C /* Poppins-Italic.ttf in Resources */,
+				7CA032382C310179001F422C /* Poppins-BlackItalic.ttf in Resources */,
+				7CA032412C310179001F422C /* Poppins-LightItalic.ttf in Resources */,
+				D81380432BFE96B800D041A0 /* Preview Assets.xcassets in Resources */,
+				7CA0323E2C310179001F422C /* Poppins-ExtraLightItalic.ttf in Resources */,
+				7CA0323C2C310179001F422C /* Poppins-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81380462BFE96B800D041A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA0324F2C455937001F422C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81380502BFE96B800D041A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA032502C455937001F422C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81380342BFE96B700D041A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA0321C2C2A8426001F422C /* JWTAuthorizer.swift in Sources */,
+				D8C9001D2C8FD1B200897F92 /* GoogleAdminAPI.swift in Sources */,
+				7CA0324E2C32EC9E001F422C /* CustomNavTitle.swift in Sources */,
+				7CA032212C2C4D4D001F422C /* SplashView.swift in Sources */,
+				D81B62172C04EDB300B7FC79 /* LabData.swift in Sources */,
+				D82AFB0F2C0E471C00D49C49 /* Account.swift in Sources */,
+				D813803E2BFE96B700D041A0 /* ContentView.swift in Sources */,
+				D81380712BFEE2FE00D041A0 /* CheckInView.swift in Sources */,
+				7CD1C5342C23CAB3008AFA7B /* ServiceAccount.swift in Sources */,
+				D801AB352CB5943200D6A935 /* GmailAPI.swift in Sources */,
+				D8C900212C91EC2500897F92 /* SearchedDomainUser.swift in Sources */,
+				D813806F2BFEDD3800D041A0 /* GeneralLog.swift in Sources */,
+				D8C10E7D2C03CD3C00CFECE6 /* ActiveUser.swift in Sources */,
+				7C7E00632C1EF6E000CFCF1C /* OnboardingView.swift in Sources */,
+				D8CD28B42CC696DE00F5DC03 /* FeedbackView.swift in Sources */,
+				D813803C2BFE96B700D041A0 /* LabLogApp.swift in Sources */,
+				7CA0321A2C2A8419001F422C /* LabsView.swift in Sources */,
+				D8C10E632BFFC88400CFECE6 /* SheetsAPI.swift in Sources */,
+				D8615F9C2C78DCCB00D879EE /* AddLabView.swift in Sources */,
+				7CA0324C2C3105D9001F422C /* CustomButton.swift in Sources */,
+				D8615F9E2C80DDCC00D879EE /* CustomNavLinkLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81380442BFE96B800D041A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D813804D2BFE96B800D041A0 /* LabLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D813804E2BFE96B800D041A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81380572BFE96B800D041A0 /* LabLogUITests.swift in Sources */,
+				D81380592BFE96B800D041A0 /* LabLogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D813804A2BFE96B800D041A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81380372BFE96B700D041A0 /* LabLog */;
+			targetProxy = D81380492BFE96B800D041A0 /* PBXContainerItemProxy */;
+		};
+		D81380542BFE96B800D041A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81380372BFE96B700D041A0 /* LabLog */;
+			targetProxy = D81380532BFE96B800D041A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D813805A2BFE96B800D041A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D813805B2BFE96B800D041A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D813805D2BFE96B800D041A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LabLog/LabLog.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabLog/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LabLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D813805E2BFE96B800D041A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = LabLog/LabLog.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LabLog/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LabLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D81380602BFE96B800D041A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabLog";
+			};
+			name = Debug;
+		};
+		D81380612BFE96B800D041A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LabLog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LabLog";
+			};
+			name = Release;
+		};
+		D81380632BFE96B800D041A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabLog;
+			};
+			name = Debug;
+		};
+		D81380642BFE96B800D041A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7H4J4YT37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sophiec.LabLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LabLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81380332BFE96B700D041A0 /* Build configuration list for PBXProject "LabLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D813805A2BFE96B800D041A0 /* Debug */,
+				D813805B2BFE96B800D041A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D813805C2BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D813805D2BFE96B800D041A0 /* Debug */,
+				D813805E2BFE96B800D041A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D813805F2BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81380602BFE96B800D041A0 /* Debug */,
+				D81380612BFE96B800D041A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81380622BFE96B800D041A0 /* Build configuration list for PBXNativeTarget "LabLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81380632BFE96B800D041A0 /* Debug */,
+				D81380642BFE96B800D041A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C7E00512C1EBEC900CFCF1C /* XCRemoteSwiftPackageReference "GTMAppAuth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GTMAppAuth.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+		7C7E00542C1EBF0F00CFCF1C /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.5;
+			};
+		};
+		7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		7CD1C5352C23CAF3008AFA7B /* XCRemoteSwiftPackageReference "jwt-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/jwt-kit.git";
+			requirement = {
+				kind = revision;
+				revision = e4c067020c87cc4dad6b916ad5159b10c3b1b2a5;
+			};
+		};
+		D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/google-api-objectivec-client-for-rest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D8C10E652BFFD1E600CFECE6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C7E00522C1EBEC900CFCF1C /* GTMAppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00512C1EBEC900CFCF1C /* XCRemoteSwiftPackageReference "GTMAppAuth" */;
+			productName = GTMAppAuth;
+		};
+		7C7E00552C1EBF0F00CFCF1C /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00542C1EBF0F00CFCF1C /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		7C7E00572C1EC7B100CFCF1C /* GoogleAPIClientForREST_ServiceUsage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ServiceUsage;
+		};
+		7C7E005A2C1EC82100CFCF1C /* GTMSessionFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcher;
+		};
+		7C7E005C2C1EC82100CFCF1C /* GTMSessionFetcherCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherCore;
+		};
+		7C7E005E2C1EC82100CFCF1C /* GTMSessionFetcherFull */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherFull;
+		};
+		7C7E00602C1EC82100CFCF1C /* GTMSessionFetcherLogView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C7E00592C1EC82100CFCF1C /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */;
+			productName = GTMSessionFetcherLogView;
+		};
+		7CD1C5362C23CAF4008AFA7B /* JWTKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CD1C5352C23CAF3008AFA7B /* XCRemoteSwiftPackageReference "jwt-kit" */;
+			productName = JWTKit;
+		};
+		D8615F9F2C815DC800D879EE /* GoogleAPIClientForREST_Drive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Drive;
+		};
+		D8615FA12C815DC800D879EE /* GoogleAPIClientForREST_DriveActivity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_DriveActivity;
+		};
+		D8C10E672BFFD75000CFECE6 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E652BFFD1E600CFECE6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D8C10E692BFFD75000CFECE6 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E652BFFD1E600CFECE6 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		D8C10E6B2C00419A00CFECE6 /* GoogleAPIClientForRESTCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForRESTCore;
+		};
+		D8C10E6D2C00419A00CFECE6 /* GoogleAPIClientForREST_ACMEDNS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_ACMEDNS;
+		};
+		D8C10E6F2C00419A00CFECE6 /* GoogleAPIClientForREST_AIPlatformNotebooks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AIPlatformNotebooks;
+		};
+		D8C10E712C00419A00CFECE6 /* GoogleAPIClientForREST_APIGateway */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_APIGateway;
+		};
+		D8C10E732C00419A00CFECE6 /* GoogleAPIClientForREST_AbusiveExperienceReport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_AbusiveExperienceReport;
+		};
+		D8C10E752C0043F500CFECE6 /* GoogleAPIClientForREST_Gmail */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Gmail;
+		};
+		D8C10E772C0043F500CFECE6 /* GoogleAPIClientForREST_Oauth2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Oauth2;
+		};
+		D8C10E792C0043F500CFECE6 /* GoogleAPIClientForREST_Sheets */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Sheets;
+		};
+		D8C9001E2C8FD42800897F92 /* GoogleAPIClientForREST_Directory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8C10E642BFFD0E200CFECE6 /* XCRemoteSwiftPackageReference "google-api-objectivec-client-for-rest" */;
+			productName = GoogleAPIClientForREST_Directory;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D81380302BFE96B700D041A0 /* Project object */;
+}
